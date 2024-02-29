@@ -90,7 +90,7 @@ cd ~/libfreenect2/build
 
 **IAI Kinect2 for OpenCV 4**
 
-We can find the installation instructions on the GitHub page. However, There's an error in the instructions. Replace "git clone https://github.com/code-iai/iai_kinect2.git" with "git clone https://github.com/paul-shuvo/iai_kinect2_opencv4.git"
+We can find the installation instructions on the GitHub page. However, There's an error in the instructions. Replace ```git clone https://github.com/code-iai/iai_kinect2.git``` with ```git clone https://github.com/paul-shuvo/iai_kinect2_opencv4.git```
 
 ```
 cd ~/catkin_ws/src/
