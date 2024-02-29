@@ -62,7 +62,7 @@ A terminal-based GUI will appear. It may state that CUDA drivers are already ins
 
   1. Type `accept` to accept the EULA
   2. Uncheck Driver, CUDA Toolkit 10.1, CUDA Demo Suite 10.1. CUDA Documentation 10.1 (only CUDA Samples 10.1 should be checked)
-  3. Hover over `Install` and hit your Enter key
+  3. Hover over `Install` and hit your `Enter` key
 
 By default, the samples should be installed in your home directory.
 
