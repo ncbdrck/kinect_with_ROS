@@ -4,7 +4,7 @@ We need a Kinect bridge to connect Kinect to the PC. We can buy one from Amazon.
 ```
 # Xbox Kinect Adapter for Xbox One S/Xbox One X Windows 8/8.1/10 Power AC Adapter PC Development Kit with UK Plug
 
-https://www.amazon.co.uk/gp/product/B07HT4224B/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
+https://www.amazon.co.uk/gp/product/B07HT4224B
 ```
 
 **Install Guidelines**
