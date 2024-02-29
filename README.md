@@ -60,13 +60,13 @@ sudo sh cuda_10.1.243_418.87.00_linux.run --override
 ```
 A terminal-based GUI will appear. It may state that CUDA drivers are already installed. Just proceed, we are not installing drivers. Using the arrow keys to navigate, perform the following:
 
-  1. Type “accept” to accept the EULA
+  1. Type `accept` to accept the EULA
   2. Uncheck Driver, CUDA Toolkit 10.1, CUDA Demo Suite 10.1. CUDA Documentation 10.1 (only CUDA Samples 10.1 should be checked)
-  3. Hover over “Install” and hit your Enter key
+  3. Hover over `Install` and hit your Enter key
 
 By default, the samples should be installed in your home directory.
 
-Once the samples are installed, we need to update our `PATH`, so `Libfreenect` knows where to look for them. So for ~/.bashrc:
+Once the samples are installed, we need to update our `PATH`, so `Libfreenect` knows where to look for them. So for `~/.bashrc`:
 ```
 echo 'export CPATH=$CPATH:$HOME/NVIDIA_CUDA-10.1_Samples/common/inc' >> ~/.bashrc
 source $HOME/.bashrc
