@@ -2,7 +2,8 @@
 
 We need a Kinect bridge to connect Kinect to the PC. We can buy one from Amazon.
 ```
-Xbox Kinect Adapter for Xbox One S/Xbox One X Windows 8/8.1/10 Power AC Adapter PC Development Kit with UK Plug
+# Xbox Kinect Adapter for Xbox One S/Xbox One X Windows 8/8.1/10 Power AC Adapter PC Development Kit with UK Plug
+
 https://www.amazon.co.uk/gp/product/B07HT4224B/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
 ```
 
@@ -47,6 +48,7 @@ sudo apt-get install linux-headers-$(uname -r)
 sudo apt-get update
 sudo apt-get install cuda
 sudo reboot
+
 echo 'export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}' >> ~/.bashrc
 ```
 Next, install the CUDA code samples. These are required by the Libfreenect installation. The CUDA Samples are bundled with the CUDA toolkit installation bundle on their website. Since we utilized apt to install the toolkit, the samples are missing. We can fix this by running the CUDA installation runfile and selecting to install ONLY the samples.
@@ -99,8 +101,10 @@ cd iai_kinect2_opencv4
 rosdep install -r --from-paths .
 cd ~/catkin_ws
 catkin_make -DCMAKE_BUILD_TYPE="Release"
+
 # If you get the following error pcl_conversions build error: PCL requires C++14 or above, 
 # Go to your CMakeLists.txt in the src folder and add the line set( CMAKE_CXX_STANDARD 14) on the very top, and rebuild.
+
 source devel/setup.bash
 ```
 
