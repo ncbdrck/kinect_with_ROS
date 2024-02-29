@@ -66,7 +66,7 @@ A terminal-based GUI will appear. It may state that CUDA drivers are already ins
 
 By default, the samples should be installed in your home directory.
 
-Once the samples are installed, we need to update our `PATH`, so `Libfreenect` knows where to look for them. So for `~/.bashrc`:
+Once the samples are installed, we need to update our `CPATH`, so `Libfreenect` knows where to look for them. So for `~/.bashrc`:
 ```
 echo 'export CPATH=$CPATH:$HOME/NVIDIA_CUDA-10.1_Samples/common/inc' >> ~/.bashrc
 source $HOME/.bashrc
