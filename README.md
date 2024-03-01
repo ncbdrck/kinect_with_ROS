@@ -9,10 +9,11 @@ https://www.amazon.co.uk/gp/product/B07HT4224B
 
 **Install Guidelines**
 
-This is a guide on installing it in Ubuntu and working with Python. So, the packages for working with ROS are missing in the below version
+This is a guide on installing it in Ubuntu and working with Python. So, the packages for working with ROS are missing in the below version. 
 ```
 https://www.notaboutmy.life/posts/run-kinect-2-on-ubuntu-20-lts/
 ```
+**Note:** Instruction mentioned in this guide is also included below. So you can directly skip to the next step.
 
 ## Installation Steps
 
