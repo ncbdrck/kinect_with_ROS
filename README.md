@@ -103,8 +103,8 @@ rosdep install -r --from-paths .
 cd ~/catkin_ws
 catkin_make -DCMAKE_BUILD_TYPE="Release"
 
-# If you get the following error pcl_conversions build error: PCL requires C++14 or above, 
-# Go to your CMakeLists.txt in the src folder and add the line set( CMAKE_CXX_STANDARD 14) on the very top, and rebuild.
+# If you get the following error "pcl_conversions build error: PCL requires C++14 or above", 
+# Go to your CMakeLists.txt in the src folder and add the line "set( CMAKE_CXX_STANDARD 14)" on the very top, and rebuild.
 
 source devel/setup.bash
 ```
