@@ -52,7 +52,7 @@ sudo reboot
 
 echo 'export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}' >> ~/.bashrc
 ```
-Next, install the CUDA code samples. These are required by the `Libfreenect` installation. The CUDA Samples are bundled with the `CUDA toolkit` installation bundle on their website. Since we utilized apt to install the toolkit, the samples are missing. We can fix this by running the CUDA installation runfile and selecting to install ONLY the samples.
+Next, install the CUDA code samples. These are required by the `Libfreenect` installation. The CUDA Samples are bundled with the `CUDA toolkit` installation bundle on their website. Since we utilized apt to install the toolkit, the samples are missing. We can fix this by running the CUDA installation runfile and selecting to install **ONLY** the samples.
 
 We can do this by first downloading the runfile.
 ```
